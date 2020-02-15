@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("user_input").value;
+    }
+</script>
+<style>
+
+.registerbtn {
+  background-color:white;
+  color: blue;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 10;
+  cursor: pointer;
+  border-radius:5px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+.registerbtn2 {
+  background-color:white;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 10;
+  border-radius:5px;
+  width: 80%;
+  opacity: 0.8;
+}
+
+.registerbtn2:hover {
+  opacity: 1;
+}
+.registerbtn3 {
+  background-color:lightyellow;
+  color: black;
+  padding: 0px 0px;
+  margin: 8px 0;
+  border: 10;
+  border-radius:10px;
+  width: 10%;
+  opacity: 0.8;
+  align:right;
+}
+
+.registerbtn3:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body background="bg2.webp">
+<button type="submit" class="registerbtn"><img src="squirrl.jfif" height="50" width="50" align="left"><h3>SQUIRREL</button>
+
+<h3><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<p align="right" class="registerbtn3"><span id='display'></span></p>
+<table width="100%">
+<tr>
+<td align="center">
+<input type="text" class="registerbtn2" placeholder="type your text here..." id="user_input"></input></td>
+<td align="left"><img src="ic.png" height="60" width="60" onclick="showInput();"></button></td>
+</tr>
+</table>
+  
+
+</body>
+</html>
